@@ -5,13 +5,15 @@ import App from './App';
 import HandleForm from './HandleForm';
 import FormValidation from './FormValidation';
 import reportWebVitals from './reportWebVitals';
+import ComponentConstructor from './ComponentConstructor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <HandleForm /> */}
-    <FormValidation />
+    {/* <FormValidation /> */}
+  {/* <ComponentConstructor /> */}
   </React.StrictMode>
 );
 
