@@ -6,7 +6,7 @@ import HandleForm from './HandleForm';
 import FormValidation from './FormValidation';
 import reportWebVitals from './reportWebVitals';
 import ComponentConstructor from './ComponentConstructor';
-
+import ComponentDidUpdate from './ComponentDidUpdate';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,6 +14,7 @@ root.render(
     {/* <HandleForm /> */}
     {/* <FormValidation /> */}
   {/* <ComponentConstructor /> */}
+  <ComponentDidUpdate />
   </React.StrictMode>
 );
 

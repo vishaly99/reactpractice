@@ -9,10 +9,12 @@ import ProposExample from './ProposExample';
 import ProposClassExample from './ProposClassExample';
 import GetDataExample from './GetDataExample';
 import ProfileExample from './ProfileExample';
+import Rendermethod from './Rendermethod';
 
 import { useState } from 'react';
 function App() {
   const [name,setname]=useState("Vishal")
+  const [data,setdata]=useState("Guruji")
   function Example1()
   {
     
@@ -32,6 +34,8 @@ function App() {
       <ProposClassExample name={name} />
       <button onClick={()=>{setname("asd")}}>Update data</button>
       <GetDataExample />
+      <Rendermethod />
+      <button onClick={()=>{setdata("guru")}}>Update</button> 
       {/* <ProposExample name={"vishal"} email={"vishal@gmail.com"} others={{address:'surat',mobileno:"021"}} />
       <ProposExample name={"v"} email={"v@gmail.com"} others={{address:'surat',mobileno:"021"}} /> */}
     </div>
