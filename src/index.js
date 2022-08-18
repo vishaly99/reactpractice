@@ -7,6 +7,9 @@ import FormValidation from './FormValidation';
 import reportWebVitals from './reportWebVitals';
 import ComponentConstructor from './ComponentConstructor';
 import ComponentDidUpdate from './ComponentDidUpdate';
+import ShouldComponentUpdate from './ShouldComponentUpdate';
+import ComponentWillUnmount from './ComponentWillUnmount';
+import UseEffect from './UseEffect';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,7 +17,10 @@ root.render(
     {/* <HandleForm /> */}
     {/* <FormValidation /> */}
   {/* <ComponentConstructor /> */}
-  <ComponentDidUpdate />
+  {/* <ComponentDidUpdate /> */}
+  {/* <ShouldComponentUpdate /> */}
+  {/* <ComponentWillUnmount /> */}
+  <UseEffect />
   </React.StrictMode>
 );
 
